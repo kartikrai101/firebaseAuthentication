@@ -55,7 +55,7 @@ const AuthForm = () => {
               errorMessage = data.error.message;
             }
 
-            alert(errorMessage); 
+            alert(errorMessage);  // alert prompt
           })
         }
       })
